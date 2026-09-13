@@ -221,7 +221,7 @@ async def panel(ctx):
         title="<a:welcome:1533417041615392879>  **AXB STORE**   <a:welcome:1533417041615392879> ",
         description=(
             "━━━━━━━━━━━━━━━━━━━━━━\n"
-            "🛒 PURCHASE CENTER\n"
+            "<:ChatGPTImageJun10202609_09_58AM:1533415838474829885> PURCHASE CENTER\n"
             "━━━━━━━━━━━━━━━━━━━━━━\n\n"
             "Select Your Product From The Menu Below.\n\n"
             "<a:welcome:1533400305775939636> PREMIUM UID BYPASS\n"
