@@ -1,4 +1,4 @@
-import os
+ import os
 import discord
 import asyncio
 
@@ -70,19 +70,29 @@ class ProductSelect(Select):
 
         options = [
             discord.SelectOption(
-                label="Premium UID Bypass",
+                label="PREMIUM UID BYPASS",
                 emoji="<a:welcome:1330517345508261900>",
-                description="Premium UID Service"
+                description="PREMIUM UID BYPASS SERVICE"
             ),
             discord.SelectOption(
-                label="UID Bypass",
-                emoji="<a:welcome:1533400305775939636> ",
-                description="Standard UID Service"
+                label="UID BYPASS",
+                emoji="<a:welcome:1533400305775939636>",
+                description="STANDARD UID BYPASS SERVICE"
             ),
             discord.SelectOption(
-                label="AXB Premium Panel",
+                label="AXB PREMIUM PANEL",
                 emoji="<a:welcome:1330517345508261900>",
-                description="Premium Panel Access"
+                description="PREMIUM PANEL ACCESS"
+            ),
+            discord.SelectOption(
+                label="LIB BYPASS",
+                emoji="<a:welcome:1330517345508261900>",
+                description="LIB BYPASS ALL SERVER SAFE"
+            ),
+            discord.SelectOption(
+                label="BR MOD",
+                emoji="<a:welcome:1330517345508261900>",
+                description="BR MOD PANEL"
             )
         ]
 
@@ -211,12 +221,14 @@ async def panel(ctx):
         title="<a:welcome:1533417041615392879>  **AXB STORE**   <a:welcome:1533417041615392879> ",
         description=(
             "━━━━━━━━━━━━━━━━━━━━━━\n"
-            "🛒 PURCHASE CENTER\n"
+            "<a:welcome:1546092136787611658> PURCHASE CENTER\n"
             "━━━━━━━━━━━━━━━━━━━━━━\n\n"
             "Select Your Product From The Menu Below.\n\n"
-            "<a:welcome:1533400305775939636> Premium UID Bypass\n"
-            "<a:welcome:1533400305775939636> UID Bypass\n"
-            "<a:welcome:1533400305775939636> Premium Panel\n\n"
+            "<a:welcome:1533400305775939636> PREMIUM UID BYPASS\n"
+            "<a:welcome:1533400305775939636> UID BYPASS\n"
+            "<a:welcome:1533400305775939636> PREMIUM PANEL\n"
+            "<a:welcome:1533400305775939636> LIB BYPASS\n"
+            "<a:welcome:1533400305775939636> BR MOD\n\n"
             "After Selecting A Product,\n"
             "A Private Ticket Will Be Created Automatically."
         ),
